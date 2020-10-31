@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box-wrapper {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: "open-san", sans-serif;
+    background-color: #282828;
+    color: #f5f4f4;
+  }
+  
+  header {
+    background-image: url("../photos/bg.png");
+    background-repeat: no-repeat;
+    height: 100vmin;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  #my-case .f-flex {
+   
+    height: 80vmin;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #my-case .left h1 {
+    margin-top: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  #my-case .left p {
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .btn {
+    padding: 0.5rem 2rem;
+    background-color: #282828;
+    outline: none;
+    color: #f5f4f4;
+    border: 2px solid #f5f4f4;
+  }
+  
+  #show-case .right {
+    display: flex;
+    background-color: #282828;
+    height: 80vmin;
+    align-items: flex-end;
+  }
+  
+  #show-case .right ul li {
+    margin-bottom: 1rem;
+  }
+  #about {
+    height: 100vmin;
+  }
+  @media screen and (min-width: 768px) {
+    #about .flex-wrapper {
+      display: flex;
+    }
+    #about .right .container {
+      height: 100vmin;
+      display: flex;
+      align-items: center;
+    }
+  }
+  #three-photos {
+    height: 100vmin;
+  }
+  
+  #three-photos .box {
+    border: 2px solid green;
+    margin-bottom: 1rem;
+    height: 25rem;
+  }
+  
+  #three-photos .box img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    #three-photos .box-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    #three-photos .box {
+      width: 30%;
+    }
+    #three-photos .reach {
+      display: flex;
+    }
+    #three-photos .reach .right {
+      flex: 1;
+    }
+  }
+  
+  
